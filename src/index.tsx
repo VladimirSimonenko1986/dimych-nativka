@@ -3,17 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {SplitIntoWords} from "./01-hello-tests/01";
 
 
 
-const sentense = 'Hello my friends';
-const res = SplitIntoWords(sentense)
-console.log(res)
 
-console.log(res[0] === 'hello')
-console.log(res[1] === 'my')
-console.log(res[2] === 'friends')
 
 
 
